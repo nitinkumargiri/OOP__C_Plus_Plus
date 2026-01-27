@@ -18,7 +18,14 @@ int main (){
         result = num1 + num2;
         cout <<"the sum of "<<num1 <<" + " <<num2 <<" = " <<result;
     
-    }else {
+    }else if (choice == 2)
+    {
+        result = num1 - num2;
+        cout <<"the sub of "<<num1 <<" - " <<num2 <<" = " <<result;
+        /* code */
+    }
+    
+    else {
         cout<< "invailed choice..";
     }
     
