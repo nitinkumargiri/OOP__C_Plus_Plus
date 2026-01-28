@@ -3,7 +3,8 @@
 using namespace std;
 
 int main (){
-    int  num1 ,num2 ,choice ,result;
+    float  num1 ,num2 ,choice;
+    float result;
 
     cout << "enter your first number : ";
     cin >> num1;
@@ -22,8 +23,27 @@ int main (){
     {
         result = num1 - num2;
         cout <<"the sub of "<<num1 <<" - " <<num2 <<" = " <<result;
-        /* code */
+    
+    }else if (choice == 3)
+    {
+        result = num1 * num2;
+        cout <<"the multiplication of "<<num1 <<" * " <<num2 <<" = "<<result;
+        
+    }else if (choice == 4)
+    {
+        if (num2 != 0)
+        {
+            result = num1 / num2;
+            cout <<"the division of "<<num1 <<" / " <<num2 <<" = " <<result;
+        }
+        else{
+            cout<<"ERROR: dovided by zero..!";
+        }
+        
+        
     }
+    
+    
     
     else {
         cout<< "invailed choice..";
