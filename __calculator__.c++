@@ -11,6 +11,11 @@ int main (){
     cout << "enter your second number : ";
     cin >> num2;
 
+    cout << "1. addition\n";
+    cout << "2. substraction\n";
+    cout << "3. multiplication\n";
+    cout << "4. division\n\n";
+
     cout << "enter your choice(1,2,3,4): ";
     cin >> choice;
 
