@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 int main (){
+    cout <<"👆🏼👆🏼👆🏼👆🏼WELCOME TO VOTTING 👆🏼👆🏼👆🏼👆🏼👆🏼";
 
     int age;
-    cout <<"Enter your age for cheaking vote eligiblity or not : ";
+    cout <<"\nEnter your age for cheaking vote eligiblity or not : ";
     cin >> age;
 
     while (age = true)
