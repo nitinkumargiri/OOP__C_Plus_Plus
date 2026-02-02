@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 int main (){
+    cout << "😊😊 WELCOME TO TABEL GENERATOR IN C++ 😊😊";
     
     int tabel;
-    cout <<"enter numeric value that you want to generate in tabel form : ";
+    cout <<"\nenter numeric value that you want to generate in tabel form : ";
     cin >> tabel;
 
     
@@ -12,5 +13,7 @@ int main (){
         cout << tabel <<" * " << i << " = "<<tabel * i << "\n";
         
     }
+
+    return 0;
     
 }
