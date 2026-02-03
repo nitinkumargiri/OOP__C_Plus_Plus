@@ -21,7 +21,7 @@ int main (){
     
         result = num1 + num2;
         cout <<num1 <<" + "<<num2 <<" = " <<result;
-        /* code */
+        
         break;
 
     case '-':
@@ -36,12 +36,24 @@ int main (){
         cout <<num1 <<" * " <<num2 <<" = "<<result;
         break;
 
-    
+    case '/':
+        
+        if (num2 != 0)
+        {
+            result = num1 / num2;
+            cout <<num1 <<" / "<<num2 <<" = "<<result;
+            
+        }else {
+            cout<< " Error: from divided by zero ('0')";
+
+        }
+        break;
     
     default:
-        cout << "Invailed operator...!";
+        cout << "\nInvailed operator...!";
         break;
     }
 
     return 0;
+
 }
