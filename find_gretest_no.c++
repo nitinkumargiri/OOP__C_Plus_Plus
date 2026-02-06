@@ -2,6 +2,7 @@
 using namespace std;
 
 int main (){
+    cout << "...WELCOME TO THIS PLETFORM...";
     int num1 , num2,num3;
 
     cout << "enter your first number : ";
@@ -22,8 +23,11 @@ int main (){
     else if (num3 >= num1 && num3 >= num2)
     {
         cout <<num3 <<" is a gretest number...!";
+    }else{
+        cout <<"invailed input..!";
     }
-    
-    
+
+    return 0;
+       
     
 }
