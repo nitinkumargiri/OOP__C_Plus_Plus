@@ -3,9 +3,11 @@ using namespace std;
 
 int main (){
     cout << "...WELCOME TO THIS PLETFORM...";
+    cout << "\nAuthor -> ..Nitn giri ..";
     int num1 , num2,num3;
+    
 
-    cout << "enter your first number : ";
+    cout << "\nenter your first number : ";
     cin >> num1;
     cout << "enter your second number : ";
     cin >> num2;
