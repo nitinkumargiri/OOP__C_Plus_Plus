@@ -8,7 +8,7 @@ int main (){
 
     cout << "🔑🔑🔑___WELCOME TO PASSWORD GENERATOR ___🔑🔑🔑";
     int length;
-    string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*";
+    string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+=-";
 
     cout << "\nenter password length: ";
     cin >> length;
