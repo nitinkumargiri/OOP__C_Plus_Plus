@@ -2,8 +2,9 @@
 using namespace std;
 
 int main() {
+  cout <<"WELCOME HERE ..!\n";
   // An array storing different ages
-  int ages[8] = {20, 22, 18, 35, 48, 26, 87, 70};
+  int ages[8] = {20, 20, 20, 20, 20, 20, 20, 20};
 
   float avg, sum = 0;
   int i;
@@ -21,6 +22,7 @@ int main() {
 
   // Print the average
   cout << "The average age is: " << avg << "\n";
+  cout << "Visit Again..!";
 
   return 0;
 }
