@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
   cout <<"WELCOME HERE ..!\n";
+  cout <<"author name :- nitin kumar giri";
   // An array storing different ages
   int ages[8] = {20, 20, 20, 20, 20, 20, 20, 20};
 
