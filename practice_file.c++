@@ -3,9 +3,11 @@
 using namespace std;
 
 int main() {
-    string arr[3] = {"nitin", "abhi","kumar"};
-    arr [0] = "opel";
-    cout << arr[0];
+    string arr[5] = {"nitin","add","hhcbfcjm","hvwef","home"};
+    for (int i = 0; i <= 5; i++ ){
+        cout << arr[i] <<"\n";
 
+    }
+    return 0;
     
 }
