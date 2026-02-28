@@ -15,5 +15,6 @@ int main (){
     student_info.grad = 'A';
 
 
-cout <<student_info.name <<"\n";
+cout <<student_info.name <<"\n" <<student_info.age <<"\n" <<student_info.grad;
+
 }
