@@ -9,6 +9,7 @@ enum Level{
 
 };
 int main(){
+    cout <<"WELCOME HERE..!\n";
 
     enum Level myvar = medium;
     switch (myvar)
@@ -27,5 +28,5 @@ int main(){
         break;
     }
 
-    return 0;
+    return 0; 
 }
