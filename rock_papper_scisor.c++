@@ -17,8 +17,17 @@ int main (){
     int num = rand () %2 + 1;
     cout <<"computer choice : "<<num <<"\n";
 
-    if (num1 == 1 && num == 2){
-        cout <<"computer win >...!";
+    if (num1 == 1 && num == 2 || num1 == 2 && num == 3 || num1 == 3 && num == 1){
+        cout <<"computer win >...!" <<"\n";
+    }
+    else if (num1 == 2 && num == 1 || num1 == 3 && num == 2 || num1 == 1 && num == 3 ){
+        cout <<"you won >...!" <<"\n";
+    }
+    else if (num1 == 1 && num == 1 || num1 == 2 && num == 2 || num1 == 3 && num == 3){
+        cout <<"match Draw...!";
+    }
+    else {
+        cout <<"Invailed input ..!";
     }
 
     return 0;
