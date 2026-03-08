@@ -21,4 +21,5 @@ int main (){
         cout <<"computer win >...!";
     }
 
+    return 0;
 }
