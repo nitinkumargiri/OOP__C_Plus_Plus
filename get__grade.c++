@@ -6,4 +6,8 @@ int main (){
     int marks;
     cout <<"enter your marks : ";
     cin >>  marks;
+
+    if (marks >= 90 && marks <= 100){
+        cout <<"Grade:- 'o'";
+    }
 }
