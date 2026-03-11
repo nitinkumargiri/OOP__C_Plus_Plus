@@ -8,6 +8,10 @@ int main (){
     cin >>  marks;
 
     if (marks >= 90 && marks <= 100){
-        cout <<"Grade:- 'o'";
+        cout <<"Grade:- 'o'"<<"\n"<<"it is a very good marks..";
+    }    
+    else if (marks <= 90 && marks >= 80){
+        cout <<"Grade:- 'A+'"<<"\n" <<"it is a good marks..";
+     
     }
 }
