@@ -19,6 +19,9 @@ int main (){
     else if (marks < 60 && marks >= 45){
         cout <<"Grade:- 'B" <<"\n" <<"second Div"; 
     }
+    else if (marks < 45 && marks >= 30){
+        cout <<"Grade:- 'c" <<"\n" <<"third div";
+    }
      
     
 }
