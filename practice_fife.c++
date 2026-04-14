@@ -12,5 +12,8 @@ int main() {
 
     cout << "Top element: " << s.top() <<"\n"; //output : 30
 
+    s.pop();
+    cout <<"new top after pop : " <<s.top() <<"\n";
+
     return 0;
 }
