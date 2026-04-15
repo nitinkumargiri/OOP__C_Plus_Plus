@@ -15,5 +15,9 @@ int main() {
     s.pop();
     cout <<"new top after pop : " <<s.top() <<"\n";
 
+    if (!s.empty()){
+        cout <<"stack size : "<<s.size();
+    }
+
     return 0;
 }
